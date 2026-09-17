@@ -8,6 +8,9 @@ TagManager:
   - Luz
   - camilla
   - MounstroMuerto
+  - Madera
+  - Piedra
+  - Engranaje
   layers:
   - Default
   - TransparentFX

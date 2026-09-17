@@ -383,7 +383,39 @@ public class Puntero : MonoBehaviour
 
                     break;
                 }
+                // ============================================
+                // RECURSOS
+                // ============================================
 
+                if (actual.CompareTag("Madera"))
+                {
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        RecogerRecurso(actual.gameObject, TipoObjeto.Madera);
+                    }
+
+                    break;
+                }
+
+                if (actual.CompareTag("Piedra"))
+                {
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        RecogerRecurso(actual.gameObject, TipoObjeto.Piedra);
+                    }
+
+                    break;
+                }
+
+                if (actual.CompareTag("Engranaje"))
+                {
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        RecogerRecurso(actual.gameObject, TipoObjeto.Engranaje);
+                    }
+
+                    break;
+                }
                 actual = actual.parent;
             }
         }
@@ -414,7 +446,22 @@ public class Puntero : MonoBehaviour
             "Has recogido un cadáver."
         );
     }
+    // =============================================================
+    // RECOGER RECURSO
+    // =============================================================
+    void RecogerRecurso(GameObject recurso, TipoObjeto tipo)
+    {
+        if (inventario == null)
+        {
+            Debug.Log("El Puntero no tiene asignado el Inventario");
+            return;
+        }
 
+        inventario.AñadirObjeto(tipo);
+        Destroy(recurso);
+
+        Debug.Log("Has recogido: " + tipo);
+    }
     // =============================================================
     // ÁREA RECTANGULAR
     // =============================================================

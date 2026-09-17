@@ -2,8 +2,11 @@ using UnityEngine;
 
 public enum TipoObjeto
 {
-  Cadaver,
-  Sangre,
-  Escamas
-    
+    Sangre,
+    Cadaver,
+    Escamas,
+    Madera,
+    Piedra,
+    Engranaje
+
 }
