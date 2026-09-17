@@ -500,6 +500,8 @@ public class ControlLuz : MonoBehaviour
         float filtroAnadida =
             filtroActual - filtroAntes;
 
+        filtroRoto = false;
+
         ActualizarSliderFiltro();
 
         Debug.Log(

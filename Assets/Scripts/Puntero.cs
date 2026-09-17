@@ -631,6 +631,10 @@ public class Puntero : MonoBehaviour
         {
             controlLuz.DesactivarControl();
         }
+        if (imagenPuntero != null)
+        {
+            imagenPuntero.anchoredPosition = Vector2.zero;
+        }
     }
 
     private void ActualizarPunteroLuz()
