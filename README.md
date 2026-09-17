@@ -1,0 +1,2 @@
+# Prototipo Faro
+Prototipo de las mecanicas principales del faro. La luz y el filtro con su respectivo desgaste. El movimiento de la camara, el acceder y salir de la luz. Hacer daño a los mounstros, que dejen un cadaver, poder recogerlo y extraerle la sangre y las escamas en la camilla. Utilizar la sangre y las escamas para recargar la bateria y arreglar el filtro respectivamente. Apagar y encender la luz y poner y quitar el filtro.
