@@ -268,7 +268,7 @@ MonoBehaviour:
   "da\xF1oPorSegundo": 20
   capaEnemigos:
     serializedVersion: 2
-    m_Bits: 72
+    m_Bits: 8
   capaObstaculos:
     serializedVersion: 2
     m_Bits: 64
