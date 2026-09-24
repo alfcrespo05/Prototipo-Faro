@@ -1613,7 +1613,7 @@ MonoBehaviour:
   imagenPuntero: {fileID: 292201349}
   canvasPuntero: {fileID: 1374872348}
   distanciaProyeccionLuz: 8
-  desplazamientoPunteroX: -70
+  desplazamientoPunteroX: -40
   inventario: {fileID: 620246343}
 --- !u!1 &356668889
 GameObject:
